@@ -147,6 +147,7 @@ public final class QueryUtils {
             }
         } catch (IOException e) {
             Log.e(LOG_TAG, "Problem retrieving the earthquake JSON results.", e);
+            //TODO to fix: Cleartext HTTP traffic to earthquake.usgs.gov not permitted
         } finally {
             if (urlConnection != null) {
                 urlConnection.disconnect();

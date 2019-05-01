@@ -14,6 +14,7 @@ public class Earthquake {
      * @param mLocation           is the city location of the earthquake
      * @param mTimeInMilliseconds is the time in milliseconds (from the Epoch) when the
      *                            earthquake happened
+     * @param mUrl                URL of the Earthquakwe
      */
     public Earthquake(float mMagnitude, String mLocation, long mTimeInMilliseconds, String mUrl) {
         setmMagnitude(mMagnitude);
